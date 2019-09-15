@@ -162,7 +162,7 @@ end
 def player_stats(player_name)
   game_hash.each do |location, keys|
     if keys[:name] == player_name
-      return keys[:player]
+      return keys[:players]
     end
   end
 end
