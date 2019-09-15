@@ -153,7 +153,7 @@ end
 def player_numbers(team_name)
   game_hash.each do |location, keys|
     if keys[:team_name] == team_name 
-      return keys[:player_number].map { |player| player[:player_number] }
+      return keys[:players].map { |player| player[:player_number] }
     end
   end
 end
