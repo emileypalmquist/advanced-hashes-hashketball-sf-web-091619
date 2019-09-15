@@ -150,8 +150,11 @@ def team_names
 end
 
 
-def player_numbers(player_name)
+def player_numbers(team_name)
   game_hash.each do |location, keys|
-    if player 
+    if team_name == team_name 
+      
+      
+    end
   end
 end
