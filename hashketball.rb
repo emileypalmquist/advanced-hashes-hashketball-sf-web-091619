@@ -218,7 +218,7 @@ def winning_team
 end
 
 
-def player_with_the_longest_name
+def player_with_longest_name
   longest_length = 0
   player = ''
     game_hash.each do |location, keys|
