@@ -4,7 +4,8 @@ def game_hash
       :team_name => "Brooklyn Nets",
       :colors => ["Black", "White"],
       :players => [
-        { :number => '0',
+        { :name => 'Jeff Adrien'
+          :number => '0',
           :shoe => '16',
           :points => '22',
           :rebounds => '12',
@@ -13,7 +14,8 @@ def game_hash
           :blocks => '1',
           :slam_dunks => '1' 
         }, 
-        { :number => '30',
+        { :name => 'Bismack Biyombo'
+          :number => '30',
           :shoe => '14',
           :points => '12',
           :rebounds => '12',
