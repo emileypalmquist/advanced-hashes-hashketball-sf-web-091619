@@ -226,7 +226,7 @@ def player_with_longest_name
       name_length = player[:name].length
       if name_length > longest_length
         longest_length = name_length
-        mvp = player[:name]
+        player = player[:name]
       end
     end
   end
