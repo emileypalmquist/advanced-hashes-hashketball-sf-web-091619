@@ -84,7 +84,7 @@ def game_hash
           :blocks => '15',
           :slam_dunks => 10
         },
-        { :name => 'Alan Anderson',
+        { :name => 'DeSagna Diop',
           :number => '0',
           :shoe => '16',
           :points => 22,
@@ -94,7 +94,7 @@ def game_hash
           :blocks => '1',
           :slam_dunks => '1' 
         },
-        { :name => 'Alan Anderson',
+        { :name => '',
           :number => '0',
           :shoe => '16',
           :points => 22,
