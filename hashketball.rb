@@ -4,7 +4,7 @@ def game_hash
       :team_name => "Brooklyn Nets",
       :colors => ["Black", "White"],
       :players => [
-        { :name => 'Jeff Adrien'
+        { :name => ''
           :number => '0',
           :shoe => '16',
           :points => '22',
@@ -31,7 +31,8 @@ def game_hash
       :team_name => "Charlotte Hornets",
       :colors => ["Turquoise", "Purple"],
       :players => [
-        { :number => '4',
+        { :name => 
+          :number => '4',
           :shoe => '18',
           :points => '10',
           :rebounds => '1',
