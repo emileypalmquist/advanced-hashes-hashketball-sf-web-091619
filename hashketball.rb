@@ -23,8 +23,8 @@ def game_hash
           :rebounds => 12,
           :assists => 12,
           :steals => 12,
-          :blocks => 12,
-          :slam_dunks => 7
+          :blocks => '12',
+          :slam_dunks => '7'
           
         }
       ]
@@ -34,11 +34,11 @@ def game_hash
       :colors => ["Turquoise", "Purple"],
       :players => [
         { :name => "Jeff Adrien",
-          :number => 4,
-          :shoe => 18,
-          :points => 10,
-          :rebounds => 1,
-          :assists => 1,
+          :number => '4',
+          :shoe => '18',
+          :points => '10',
+          :rebounds => '1',
+          :assists => '1',
           :steals => '2',
           :blocks => '7',
           :slam_dunks => '2'
