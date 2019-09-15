@@ -203,4 +203,16 @@ end
 
 
 def winning_team
-  
+  total_points = 0
+  win_team = ''
+  game_hash.each do |location, keys|
+    team_points = 0
+    team_name = game_hash[location][:team_name]
+    keys[:players].each do |player|
+      points = player[:points]
+      team_points += points
+    end
+    win_team, total_points = team_name, team_points if team_points > total_points
+  end
+  return win_team
+end
